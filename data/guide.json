@@ -1,0 +1,172 @@
+[
+  {
+    "id": "cat-donors",
+    "name": "Donor Inquiries",
+    "subs": [
+      {
+        "name": "How to donate",
+        "action": "reply",
+        "claudeCategory": "donation_howto",
+        "routeTo": "",
+        "routeToCC": "",
+        "replyText": "Thank you for your interest in supporting Panzi Foundation! The easiest way to give is through our donation page at https://panzifoundation.org/donate/ — you can set up a one-time or monthly gift, choose your preferred currency, and pay by credit/debit card, Google Pay, PayPal, or bank transfer (ACH). If you prefer to send a check, please mail it to: Panzi Foundation, 5185 MacArthur Blvd. NW, #708, Washington, DC 20016, USA.\n\nWith gratitude,\nThe Panzi Foundation Team"
+      },
+      {
+        "name": "Funding request (asking Panzi for money)",
+        "action": "reply",
+        "claudeCategory": "funding_request",
+        "routeTo": "",
+        "routeToCC": "",
+        "replyText": "Thank you for contacting us. We review all correspondence carefully. Please note that the Panzi Foundation is not a grantmaking organization and is unable to provide financial support.\n\nWith gratitude,\nThe Panzi Foundation Team"
+      },
+      {
+        "name": "Donation issue (cancel, receipt, payment problem)",
+        "action": "forward",
+        "claudeCategory": "donation_issue",
+        "routeTo": "stephanie.rapp@panzi.org",
+        "routeToCC": "",
+        "replyText": "Thank you for reaching out. We have forwarded your message to our development team, who will be in touch shortly.\n\nWith gratitude,\nThe Panzi Foundation Team"
+      },
+      {
+        "name": "Fundraiser request",
+        "action": "reply",
+        "claudeCategory": "fundraiser_request",
+        "routeTo": "",
+        "routeToCC": "",
+        "replyText": "Thank you for your interest in organizing a fundraiser for Panzi Foundation — we are truly grateful! The easiest way to get started is through our online fundraising platform at https://give.panzifoundation.org/campaign/panzi/c337007/fundraiser/create\n\nWith gratitude,\nThe Panzi Foundation Team"
+      }
+    ]
+  },
+  {
+    "id": "cat-media",
+    "name": "Media & Communications",
+    "subs": [
+      {
+        "name": "Interview / podcast / press request",
+        "action": "forward",
+        "claudeCategory": "media_comms",
+        "routeTo": "isis.ossebi@panzi.org",
+        "routeToCC": "marissa@panzi.org",
+        "replyText": "Thank you for reaching out to the Panzi Foundation. We have forwarded your request to our communications team, who will be in touch shortly.\n\nWith gratitude,\nThe Panzi Foundation Team"
+      }
+    ]
+  },
+  {
+    "id": "cat-mukwege",
+    "name": "Dr. Mukwege",
+    "subs": [
+      {
+        "name": "Speaking / event invitation (professional)",
+        "action": "forward",
+        "claudeCategory": "mukwege_schedule",
+        "routeTo": "olivier@mukwegefoundation.org",
+        "routeToCC": "dm-assistant@hopitaldepanzi.org,robertnjangala@hopitaldepanzi.org",
+        "replyText": "Thank you for your message and for your interest in having Dr. Mukwege participate in your event. To ensure we can properly review your invitation, could you kindly share: a formal invitation letter, the date and location, the expected format and duration, and any logistical arrangements (travel, accommodation).\n\nWith gratitude,\nThe Panzi Foundation Team"
+      },
+      {
+        "name": "Personal / casual request",
+        "action": "reply",
+        "claudeCategory": "mukwege_schedule",
+        "routeTo": "",
+        "routeToCC": "",
+        "replyText": "Thank you for your kind message. Dr. Mukwege is deeply committed to his work and his schedule is managed carefully to ensure he can continue serving the patients and communities who depend on him. We are grateful for your understanding.\n\nWith gratitude,\nThe Panzi Foundation Team"
+      }
+    ]
+  },
+  {
+    "id": "cat-hospital",
+    "name": "Hospital & Medical",
+    "subs": [
+      {
+        "name": "Medical records / patient request",
+        "action": "forward",
+        "claudeCategory": "hospital_records",
+        "routeTo": "mda-admin@hopitaldepanzi.org",
+        "routeToCC": "mda-clin@hopitaldepanzi.org",
+        "replyText": "Thank you for your message. For any requests related to medical care or hospital services, please contact Panzi Hospital directly at +243 894 153 354.\n\nWith gratitude,\nThe Panzi Foundation Team"
+      },
+      {
+        "name": "Visit request",
+        "action": "forward",
+        "claudeCategory": "visit_request",
+        "routeTo": "marissa@panzi.org",
+        "routeToCC": "",
+        "replyText": "Thank you for your interest in visiting the Panzi Foundation. We have forwarded your request to our team, who will follow up with you shortly.\n\nWith gratitude,\nThe Panzi Foundation Team"
+      }
+    ]
+  },
+  {
+    "id": "cat-programs",
+    "name": "Programs & Partnerships",
+    "subs": [
+      {
+        "name": "Youth Ambassador inquiry",
+        "action": "reply",
+        "claudeCategory": "youth_ambassador",
+        "routeTo": "",
+        "routeToCC": "",
+        "replyText": "Thank you for your interest in the Panzi Foundation's Youth Ambassador Program! The program is currently closed. To be the first to know when the next application window opens, visit: https://panzifoundation.org/panzi-youth-ambassador-program/ and follow us on social media.\n\nWith gratitude,\nThe Panzi Foundation Team"
+      },
+      {
+        "name": "Partnership proposal",
+        "action": "forward",
+        "claudeCategory": "partnership",
+        "routeTo": "marissa@panzi.org",
+        "routeToCC": "",
+        "replyText": "Thank you for reaching out. At this time, we are not in a position to engage in new partnerships, as our current priorities are fully committed. We encourage you to stay connected via our website and social media.\n\nWith gratitude,\nThe Panzi Foundation Team"
+      },
+      {
+        "name": "Program information request",
+        "action": "forward",
+        "claudeCategory": "program_info",
+        "routeTo": "marissa@panzi.org",
+        "routeToCC": "",
+        "replyText": "Thank you for your interest in Panzi Foundation's programs. We have forwarded your message to our team, who will be in touch shortly.\n\nWith gratitude,\nThe Panzi Foundation Team"
+      }
+    ]
+  },
+  {
+    "id": "cat-employment",
+    "name": "Employment & Research",
+    "subs": [
+      {
+        "name": "Job application / unsolicited CV",
+        "action": "reply",
+        "claudeCategory": "employment",
+        "routeTo": "",
+        "routeToCC": "",
+        "replyText": "Thank you for your interest in the Panzi Foundation. At this time, we are not actively recruiting. We invite you to stay connected through our website at https://panzifoundation.org/careers/\n\nWith gratitude,\nThe Panzi Foundation Team"
+      },
+      {
+        "name": "Research / academic collaboration",
+        "action": "forward",
+        "claudeCategory": "research",
+        "routeTo": "marie.hatem@umontreal.ca",
+        "routeToCC": "",
+        "replyText": "Thank you for your interest in our work. We have forwarded your request to our research collaborator, who will be in touch.\n\nWith gratitude,\nThe Panzi Foundation Team"
+      },
+      {
+        "name": "Hospital internship request",
+        "action": "reply",
+        "claudeCategory": "employment",
+        "routeTo": "",
+        "routeToCC": "",
+        "replyText": "Thank you for your message and your interest in Panzi Hospital. Unfortunately, we are not able to accommodate new international interns at this time. We wish you success in your training.\n\nWith gratitude,\nThe Panzi Foundation Team"
+      }
+    ]
+  },
+  {
+    "id": "cat-urgent",
+    "name": "Urgent & SOS",
+    "subs": [
+      {
+        "name": "Distress / survivor in need",
+        "action": "reply_forward",
+        "claudeCategory": "distress_sos",
+        "routeTo": "marissa@panzi.org",
+        "routeToCC": "",
+        "replyText": "Thank you for reaching out to us. We have received your message and want you to know that you are not alone. A member of our team will be in touch with you very shortly.\n\nWith all our care,\nThe Panzi Foundation Team"
+      }
+    ]
+  }
+]
